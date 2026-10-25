@@ -114,7 +114,7 @@ report_definitions = {}  # report_id -> {"type": str, "size_bytes": int, "usage_
 report_ids_present = False  # set True if Report Map declares any Report IDs
 
 # Minimum hold duration in seconds before value 2 (hold/repeat) events are triggered
-MIN_HOLD_DURATION = 0.5  # 500ms - typical hold threshold
+MIN_HOLD_DURATION = 0.28  # 500ms - typical hold threshold
 
 # Auto-repeat (enabled by --repeat)
 repeat_enabled = False
